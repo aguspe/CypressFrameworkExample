@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: switch folders
-        run: cd CypressFrameworkExample
+        run: ls
 
       - name: Install dependencies
         run: npm install
