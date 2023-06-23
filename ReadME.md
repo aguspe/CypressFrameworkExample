@@ -8,8 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) >= 12
-- npm >= 6
+- [Node.js](https://nodejs.org/)
+- npm
 
 ### Installing
 
