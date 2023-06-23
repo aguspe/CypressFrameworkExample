@@ -1,0 +1,23 @@
+{
+  "name": "cypress-test-project",
+  "version": "1.0.0",
+  "description": "End-to-end testing project using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress/node_modules/.bin/cypress open",
+    "test:run": "cypress/node_modules/.bin/cypress run",
+    "test:allure": "cypress/node_modules/.bin/cypress run --env allure=true",
+    "report": "cypress/node_modules/.bin/allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "keywords": [
+    "cypress",
+    "e2e-testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "allure-commandline": "^2.13.8",
+    "@shelex/cypress-allure-plugin": "^2.4.1"
+  }
+}
